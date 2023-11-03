@@ -248,24 +248,35 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 232;
-  column-gap: 24px;
+  gap: 24px;
   padding-right: 16px;
   padding-left: 16px;
   padding-bottom: 32px;
+  justify-content: center;
 }
 .items-our-team {
   display: flex;
-  gap: 24px;
-  border-radius: 50%;
   background-color: #4d5ae5;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   padding: 12px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.items-our-team:hover,
-.items-our-team:focus {
+.link-our-team {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.link-our-team:hover,
+.link-our-team:focus {
   background-color: #404BBF;
+
 }
 .icon-our-team {
   fill: #f4f4fd;
